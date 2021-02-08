@@ -1,0 +1,18 @@
+body {
+    background-color: $secondary;
+    color: $primary;
+
+    .container-header {
+        height: 580px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        border: 1px solid $primary;
+        border-radius: 10px;
+    
+        &__paragraph {
+            padding: 5px;
+        }
+    }
+}
